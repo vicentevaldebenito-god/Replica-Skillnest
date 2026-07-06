@@ -1,0 +1,169 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(173, 173, 173, 0.486);
+}
+
+.Nav{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Nav_Links{
+    display:flex;
+    gap:35px;
+    flex-wrap: wrap;
+}
+
+.Nav_Img img{
+    height:90px;
+    width:250px;
+}
+
+.Link1{
+    text-decoration:underline 3px solid rgb(97, 206, 112);
+}
+
+.Nav_Buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width:200px;
+    flex-wrap: wrap;
+}
+.Nav_Buttons button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width:40px;
+}
+.Nav_Buttons_1{
+    border-radius:50%;
+    border:none;
+    background-color:gray;
+}
+.Nav_Buttons_2{
+    border-radius:25px;
+    border:none;
+    background-color:rgb(2, 123, 248);
+    color:white;
+    padding-left:50px;
+    padding-right:50px;
+    display:flex;
+    text-align:center;
+}
+
+.Nav_Buttons img{
+    height:20px;
+    width:20px;
+}
+.Nav_Links a{
+    text-decoration: none;
+    color:rgb(2, 86, 255);
+    font-size:20px;
+}
+
+.Nav_Links a:hover{
+    text-decoration:underline 3px solid rgb(97, 206, 112);
+}
+
+.Main{
+    padding-left:50px;
+    padding-right:50px;
+    height: 100%;
+    background-color:rgba(230, 230, 230, 0.87);
+    border-radius:20px;
+    box-shadow: 10px 10px 10px 8px rgba(0, 0, 0, 0.171);
+}
+
+.Main_User{
+    display:flex;
+    width:100%;
+    border-bottom:2px solid rgb(205, 207, 213);
+    justify-content: space-between;
+    align-items:center;
+}
+
+.Main_User_Info{
+    gap:15px;
+    display:flex;
+    align-items:center;
+}
+.Main_User img{
+    height:150px;
+    width:150px;
+}
+.Main_User p{
+font-size:22px;
+}
+
+.Main_User_Button button{
+width:50px;
+height:50px;
+display:flex;
+align-items: center;
+justify-content: center;
+border: 1px solid rgb(238, 51, 46);
+border-radius:5px;
+}
+
+.Main_User_Button button:hover{
+    background-color:rgba(238, 52, 46, 0.692);
+}
+.Main_User_Button img{
+width:40px;
+height:40px;
+}
+
+.Main_Links{
+    width:300px;
+    border-right:2px solid rgb(205, 207, 213);
+}
+.Main_Link{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.Main_Link a{
+    text-decoration: none;
+    color:black;
+}
+
+.Main_Link:hover{
+    background-color:rgba(128, 128, 128, 0.253);
+}
+.Main_Link img{
+    width:30px;
+    height:30px;
+}
+
+.Main_Link1{
+    border-bottom:2px solid rgb(205, 207, 213);
+    padding:10px;
+
+}
+
+.Main_Link2{
+    border-bottom:2px solid rgb(205, 207, 213);
+    padding:10px;
+}
+
+.Main_Link2 p{
+    color:rgba(128, 128, 128, 0.63);
+    margin-bottom:10px;
+}
