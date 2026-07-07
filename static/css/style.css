@@ -90,6 +90,7 @@ body{
 
 .Main_General{
     display: flex;
+    flex-wrap: wrap;
 }
 .Main_User{
     display:flex;
@@ -187,10 +188,69 @@ height:40px;
     justify-content:flex-start;
     flex:3;
     margin-top:20px;
+    flex-direction: column;
+    gap:20px;
+    margin-left:25px;
+    flex-wrap: wrap;
 }
 
 .Info_Cursos{
     display:flex;
     flex-direction: row;
-    
+    gap:15px;
+    padding-bottom:10px;
+    border-bottom:2px solid rgb(205, 207, 213);
+}
+
+.Info_Cursos a{
+    text-decoration: none;
+}
+
+.Curso{
+    color:rgb(73, 73, 73);
+}
+
+.Curso_Seleccionado{
+    color:rgb(86, 119, 225);
+    border-bottom: 2px solid rgb(86, 119, 225);
+}
+
+.Curso:hover{
+    color:rgb(86, 119, 225);
+    border-bottom: 2px solid rgb(86, 119, 225);
+}
+.Info_Cursos_Cajas{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.Curso_Caja{
+    height:350px;
+    width:270px;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 2px 4px 8px rgb(161, 161, 161);
+    border-radius: 10px;
+    transition: box-shadow 0.5s ease;
+}
+
+.Curso_Caja img{
+    height:200px;
+    border-radius:10px 10px 0px 0px;
+}
+
+.Curso_Caja p{
+    font-size:12px;
+    margin:10px;
+}
+.Curso_Caja h1{
+    font-size:15px;
+    margin:10px;
+}
+
+.Curso_Caja:hover{
+    box-shadow:4px 8px 16px rgb(161, 161, 161);
+
 }
