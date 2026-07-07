@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:rgba(173, 173, 173, 0.486);
+    background-color:rgb(234, 245, 255);
 }
 
 .Nav{
@@ -39,7 +39,8 @@ body{
     align-items: center;
     gap:20px;
     width:200px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+
 }
 .Nav_Buttons button{
     display:flex;
@@ -79,14 +80,17 @@ body{
 }
 
 .Main{
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:100px;
+    padding-right:100px;
     height: 100%;
-    background-color:rgba(230, 230, 230, 0.87);
+    background-color:rgb(234, 245, 255);
     border-radius:20px;
     box-shadow: 10px 10px 10px 8px rgba(0, 0, 0, 0.171);
 }
 
+.Main_General{
+    display: flex;
+}
 .Main_User{
     display:flex;
     width:100%;
@@ -129,6 +133,7 @@ height:40px;
 .Main_Links{
     width:300px;
     border-right:2px solid rgb(205, 207, 213);
+    flex:1;
 }
 .Main_Link{
     display:flex;
@@ -166,4 +171,26 @@ height:40px;
 .Main_Link2 p{
     color:rgba(128, 128, 128, 0.63);
     margin-bottom:10px;
+}
+
+.Link_Seleccionado{
+    background-color:rgb(62, 101, 222);
+    color:white;
+}
+
+.Link_Seleccionado:hover{
+    background-color:rgb(28, 56, 139)
+}
+
+.Main_Info{
+    display: flex;
+    justify-content:flex-start;
+    flex:3;
+    margin-top:20px;
+}
+
+.Info_Cursos{
+    display:flex;
+    flex-direction: row;
+    
 }
